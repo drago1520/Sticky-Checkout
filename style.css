@@ -1,6 +1,4 @@
-body{
-  background-color: rgb(14, 13, 13);
-}
+
 .grid-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -8,12 +6,13 @@ body{
 .description{
   height: 1500px;
   overflow:hidden;
-  background-image: linear-gradient(red, yellow);
+  padding: 20px;
 }
 .checkout{
+  padding: 20px;
   height: 800px;
-  background-image: linear-gradient(red, yellow);
   overflow:hidden;
+  background-color: #009639;
   position: sticky;
   top: 60px;
 
@@ -21,4 +20,9 @@ body{
 .footer{
   height: 500px;
   background-color: #009639;
+}
+@media (max-width: 768px){
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
 }
