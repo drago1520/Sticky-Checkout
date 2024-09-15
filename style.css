@@ -1,0 +1,24 @@
+body{
+  background-color: rgb(14, 13, 13);
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.description{
+  height: 1500px;
+  overflow:hidden;
+  background-image: linear-gradient(red, yellow);
+}
+.checkout{
+  height: 800px;
+  background-image: linear-gradient(red, yellow);
+  overflow:hidden;
+  position: sticky;
+  top: 60px;
+
+}
+.footer{
+  height: 500px;
+  background-color: #009639;
+}
